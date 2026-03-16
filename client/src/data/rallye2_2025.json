@@ -1,0 +1,86 @@
+{
+  "id": 2,
+  "annee": 2025,
+  "titre": "Rallye 2 – CE1",
+  "niveau": "CE1",
+  "dureeExercice": 150,
+  "exercices": [
+    {
+      "id": 1,
+      "titre": "Additions jusqu'à 100",
+      "questions": [
+        { "id": 1, "enonce": "34 + 25 = ?", "reponse": "59", "type": "calcul" },
+        { "id": 2, "enonce": "47 + 36 = ?", "reponse": "83", "type": "calcul" },
+        { "id": 3, "enonce": "58 + 27 = ?", "reponse": "85", "type": "calcul" },
+        { "id": 4, "enonce": "63 + 19 = ?", "reponse": "82", "type": "calcul" },
+        { "id": 5, "enonce": "75 + 18 = ?", "reponse": "93", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 2,
+      "titre": "Soustractions jusqu'à 100",
+      "questions": [
+        { "id": 1, "enonce": "72 – 34 = ?", "reponse": "38", "type": "calcul" },
+        { "id": 2, "enonce": "85 – 47 = ?", "reponse": "38", "type": "calcul" },
+        { "id": 3, "enonce": "63 – 28 = ?", "reponse": "35", "type": "calcul" },
+        { "id": 4, "enonce": "90 – 45 = ?", "reponse": "45", "type": "calcul" },
+        { "id": 5, "enonce": "51 – 16 = ?", "reponse": "35", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 3,
+      "titre": "Table de multiplication par 2",
+      "questions": [
+        { "id": 1, "enonce": "2 × 3 = ?", "reponse": "6", "type": "calcul" },
+        { "id": 2, "enonce": "2 × 7 = ?", "reponse": "14", "type": "calcul" },
+        { "id": 3, "enonce": "2 × 9 = ?", "reponse": "18", "type": "calcul" },
+        { "id": 4, "enonce": "2 × 6 = ?", "reponse": "12", "type": "calcul" },
+        { "id": 5, "enonce": "2 × 8 = ?", "reponse": "16", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 4,
+      "titre": "Table de multiplication par 5",
+      "questions": [
+        { "id": 1, "enonce": "5 × 4 = ?", "reponse": "20", "type": "calcul" },
+        { "id": 2, "enonce": "5 × 6 = ?", "reponse": "30", "type": "calcul" },
+        { "id": 3, "enonce": "5 × 7 = ?", "reponse": "35", "type": "calcul" },
+        { "id": 4, "enonce": "5 × 9 = ?", "reponse": "45", "type": "calcul" },
+        { "id": 5, "enonce": "5 × 8 = ?", "reponse": "40", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 5,
+      "titre": "Table de multiplication par 10",
+      "questions": [
+        { "id": 1, "enonce": "10 × 3 = ?", "reponse": "30", "type": "calcul" },
+        { "id": 2, "enonce": "10 × 6 = ?", "reponse": "60", "type": "calcul" },
+        { "id": 3, "enonce": "10 × 9 = ?", "reponse": "90", "type": "calcul" },
+        { "id": 4, "enonce": "10 × 7 = ?", "reponse": "70", "type": "calcul" },
+        { "id": 5, "enonce": "10 × 8 = ?", "reponse": "80", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 6,
+      "titre": "Doublés et moitiés",
+      "questions": [
+        { "id": 1, "enonce": "Le double de 15 = ?", "reponse": "30", "type": "calcul" },
+        { "id": 2, "enonce": "La moitié de 18 = ?", "reponse": "9", "type": "calcul" },
+        { "id": 3, "enonce": "Le double de 24 = ?", "reponse": "48", "type": "calcul" },
+        { "id": 4, "enonce": "La moitié de 40 = ?", "reponse": "20", "type": "calcul" },
+        { "id": 5, "enonce": "Le double de 35 = ?", "reponse": "70", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 7,
+      "titre": "Compléments à 100",
+      "questions": [
+        { "id": 1, "enonce": "35 + ? = 100", "reponse": "65", "type": "calcul" },
+        { "id": 2, "enonce": "48 + ? = 100", "reponse": "52", "type": "calcul" },
+        { "id": 3, "enonce": "67 + ? = 100", "reponse": "33", "type": "calcul" },
+        { "id": 4, "enonce": "19 + ? = 100", "reponse": "81", "type": "calcul" },
+        { "id": 5, "enonce": "74 + ? = 100", "reponse": "26", "type": "calcul" }
+      ]
+    }
+  ]
+}

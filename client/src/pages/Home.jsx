@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
-const RALLYES = [
-  { id: 5, annee: 2025, titre: 'Rallye 5 – CM2 / 6ème', niveau: 'CM2 / 6ème' }
-];
+import { RALLYES_LIST } from '../data/rallyes';
 
 export function Home() {
-  const [selected, setSelected] = useState(RALLYES[0]);
+  const [selected, setSelected] = useState(RALLYES_LIST[0]);
   const navigate = useNavigate();
 
   const handleStart = () => {
@@ -24,7 +21,7 @@ export function Home() {
       <div className="home__select-card">
         <label className="home__label">Choisir un rallye :</label>
         <div className="home__rallye-list">
-          {RALLYES.map(r => (
+          {RALLYES_LIST.map(r => (
             <button
               key={`${r.annee}-${r.id}`}
               className={`home__rallye-btn ${selected?.id === r.id ? 'home__rallye-btn--active' : ''}`}

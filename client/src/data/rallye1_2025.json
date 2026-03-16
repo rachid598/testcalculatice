@@ -1,0 +1,75 @@
+{
+  "id": 1,
+  "annee": 2025,
+  "titre": "Rallye 1 – CP",
+  "niveau": "CP",
+  "dureeExercice": 120,
+  "exercices": [
+    {
+      "id": 1,
+      "titre": "Additions jusqu'à 10",
+      "questions": [
+        { "id": 1, "enonce": "3 + 4 = ?", "reponse": "7", "type": "calcul" },
+        { "id": 2, "enonce": "5 + 2 = ?", "reponse": "7", "type": "calcul" },
+        { "id": 3, "enonce": "6 + 3 = ?", "reponse": "9", "type": "calcul" },
+        { "id": 4, "enonce": "4 + 4 = ?", "reponse": "8", "type": "calcul" },
+        { "id": 5, "enonce": "1 + 9 = ?", "reponse": "10", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 2,
+      "titre": "Soustractions jusqu'à 10",
+      "questions": [
+        { "id": 1, "enonce": "9 – 3 = ?", "reponse": "6", "type": "calcul" },
+        { "id": 2, "enonce": "8 – 5 = ?", "reponse": "3", "type": "calcul" },
+        { "id": 3, "enonce": "10 – 4 = ?", "reponse": "6", "type": "calcul" },
+        { "id": 4, "enonce": "7 – 2 = ?", "reponse": "5", "type": "calcul" },
+        { "id": 5, "enonce": "6 – 6 = ?", "reponse": "0", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 3,
+      "titre": "Doublés",
+      "questions": [
+        { "id": 1, "enonce": "Le double de 3 = ?", "reponse": "6", "type": "calcul" },
+        { "id": 2, "enonce": "Le double de 4 = ?", "reponse": "8", "type": "calcul" },
+        { "id": 3, "enonce": "Le double de 5 = ?", "reponse": "10", "type": "calcul" },
+        { "id": 4, "enonce": "Le double de 2 = ?", "reponse": "4", "type": "calcul" },
+        { "id": 5, "enonce": "Le double de 6 = ?", "reponse": "12", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 4,
+      "titre": "Additions jusqu'à 20",
+      "questions": [
+        { "id": 1, "enonce": "8 + 7 = ?", "reponse": "15", "type": "calcul" },
+        { "id": 2, "enonce": "9 + 6 = ?", "reponse": "15", "type": "calcul" },
+        { "id": 3, "enonce": "7 + 8 = ?", "reponse": "15", "type": "calcul" },
+        { "id": 4, "enonce": "6 + 9 = ?", "reponse": "15", "type": "calcul" },
+        { "id": 5, "enonce": "10 + 10 = ?", "reponse": "20", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 5,
+      "titre": "Compléments à 10",
+      "questions": [
+        { "id": 1, "enonce": "3 + ? = 10", "reponse": "7", "type": "calcul" },
+        { "id": 2, "enonce": "6 + ? = 10", "reponse": "4", "type": "calcul" },
+        { "id": 3, "enonce": "8 + ? = 10", "reponse": "2", "type": "calcul" },
+        { "id": 4, "enonce": "1 + ? = 10", "reponse": "9", "type": "calcul" },
+        { "id": 5, "enonce": "5 + ? = 10", "reponse": "5", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 6,
+      "titre": "Soustractions jusqu'à 20",
+      "questions": [
+        { "id": 1, "enonce": "15 – 7 = ?", "reponse": "8", "type": "calcul" },
+        { "id": 2, "enonce": "18 – 9 = ?", "reponse": "9", "type": "calcul" },
+        { "id": 3, "enonce": "20 – 6 = ?", "reponse": "14", "type": "calcul" },
+        { "id": 4, "enonce": "13 – 5 = ?", "reponse": "8", "type": "calcul" },
+        { "id": 5, "enonce": "17 – 8 = ?", "reponse": "9", "type": "calcul" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": 3,
+  "annee": 2025,
+  "titre": "Rallye 3 – CE2",
+  "niveau": "CE2",
+  "dureeExercice": 150,
+  "exercices": [
+    {
+      "id": 1,
+      "titre": "Tables de multiplication (3 et 4)",
+      "questions": [
+        { "id": 1, "enonce": "3 × 7 = ?", "reponse": "21", "type": "calcul" },
+        { "id": 2, "enonce": "4 × 6 = ?", "reponse": "24", "type": "calcul" },
+        { "id": 3, "enonce": "3 × 8 = ?", "reponse": "24", "type": "calcul" },
+        { "id": 4, "enonce": "4 × 9 = ?", "reponse": "36", "type": "calcul" },
+        { "id": 5, "enonce": "3 × 9 = ?", "reponse": "27", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 2,
+      "titre": "Tables de multiplication (6 et 7)",
+      "questions": [
+        { "id": 1, "enonce": "6 × 4 = ?", "reponse": "24", "type": "calcul" },
+        { "id": 2, "enonce": "7 × 3 = ?", "reponse": "21", "type": "calcul" },
+        { "id": 3, "enonce": "6 × 7 = ?", "reponse": "42", "type": "calcul" },
+        { "id": 4, "enonce": "7 × 8 = ?", "reponse": "56", "type": "calcul" },
+        { "id": 5, "enonce": "6 × 9 = ?", "reponse": "54", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 3,
+      "titre": "Tables de multiplication (8 et 9)",
+      "questions": [
+        { "id": 1, "enonce": "8 × 4 = ?", "reponse": "32", "type": "calcul" },
+        { "id": 2, "enonce": "9 × 6 = ?", "reponse": "54", "type": "calcul" },
+        { "id": 3, "enonce": "8 × 7 = ?", "reponse": "56", "type": "calcul" },
+        { "id": 4, "enonce": "9 × 8 = ?", "reponse": "72", "type": "calcul" },
+        { "id": 5, "enonce": "8 × 9 = ?", "reponse": "72", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 4,
+      "titre": "Additions jusqu'à 1000",
+      "questions": [
+        { "id": 1, "enonce": "345 + 237 = ?", "reponse": "582", "type": "calcul" },
+        { "id": 2, "enonce": "456 + 328 = ?", "reponse": "784", "type": "calcul" },
+        { "id": 3, "enonce": "509 + 364 = ?", "reponse": "873", "type": "calcul" },
+        { "id": 4, "enonce": "627 + 145 = ?", "reponse": "772", "type": "calcul" },
+        { "id": 5, "enonce": "483 + 259 = ?", "reponse": "742", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 5,
+      "titre": "Soustractions jusqu'à 1000",
+      "questions": [
+        { "id": 1, "enonce": "834 – 427 = ?", "reponse": "407", "type": "calcul" },
+        { "id": 2, "enonce": "721 – 358 = ?", "reponse": "363", "type": "calcul" },
+        { "id": 3, "enonce": "500 – 246 = ?", "reponse": "254", "type": "calcul" },
+        { "id": 4, "enonce": "960 – 375 = ?", "reponse": "585", "type": "calcul" },
+        { "id": 5, "enonce": "1000 – 437 = ?", "reponse": "563", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 6,
+      "titre": "Divisions (tables)",
+      "questions": [
+        { "id": 1, "enonce": "24 ÷ 6 = ?", "reponse": "4", "type": "calcul" },
+        { "id": 2, "enonce": "42 ÷ 7 = ?", "reponse": "6", "type": "calcul" },
+        { "id": 3, "enonce": "56 ÷ 8 = ?", "reponse": "7", "type": "calcul" },
+        { "id": 4, "enonce": "72 ÷ 9 = ?", "reponse": "8", "type": "calcul" },
+        { "id": 5, "enonce": "54 ÷ 6 = ?", "reponse": "9", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 7,
+      "titre": "Moitiés et quarts",
+      "questions": [
+        { "id": 1, "enonce": "La moitié de 64 = ?", "reponse": "32", "type": "calcul" },
+        { "id": 2, "enonce": "Le quart de 80 = ?", "reponse": "20", "type": "calcul" },
+        { "id": 3, "enonce": "La moitié de 150 = ?", "reponse": "75", "type": "calcul" },
+        { "id": 4, "enonce": "Le quart de 120 = ?", "reponse": "30", "type": "calcul" },
+        { "id": 5, "enonce": "La moitié de 98 = ?", "reponse": "49", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 8,
+      "titre": "Multiples de 10 et 100",
+      "questions": [
+        { "id": 1, "enonce": "30 × 4 = ?", "reponse": "120", "type": "calcul" },
+        { "id": 2, "enonce": "50 × 6 = ?", "reponse": "300", "type": "calcul" },
+        { "id": 3, "enonce": "200 × 3 = ?", "reponse": "600", "type": "calcul" },
+        { "id": 4, "enonce": "400 × 7 = ?", "reponse": "2800", "type": "calcul" },
+        { "id": 5, "enonce": "600 ÷ 3 = ?", "reponse": "200", "type": "calcul" }
+      ]
+    }
+  ]
+}

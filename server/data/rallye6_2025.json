@@ -1,0 +1,130 @@
+{
+  "id": 6,
+  "annee": 2025,
+  "titre": "Rallye 6 – 6ème / 5ème",
+  "niveau": "6ème / 5ème",
+  "dureeExercice": 180,
+  "exercices": [
+    {
+      "id": 1,
+      "titre": "Fractions",
+      "questions": [
+        { "id": 1, "enonce": "1/3 + 1/3 = ?", "reponse": "2/3", "type": "calcul" },
+        { "id": 2, "enonce": "3/5 + 1/5 = ?", "reponse": "4/5", "type": "calcul" },
+        { "id": 3, "enonce": "7/8 – 3/8 = ?", "reponse": "4/8", "type": "calcul" },
+        { "id": 4, "enonce": "2/3 × 3 = ?", "reponse": "2", "type": "calcul" },
+        { "id": 5, "enonce": "1/4 × 8 = ?", "reponse": "2", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 2,
+      "titre": "Nombres décimaux",
+      "questions": [
+        { "id": 1, "enonce": "0,7 × 8 = ?", "reponse": "5,6", "type": "calcul" },
+        { "id": 2, "enonce": "1,25 × 4 = ?", "reponse": "5", "type": "calcul" },
+        { "id": 3, "enonce": "3,6 ÷ 4 = ?", "reponse": "0,9", "type": "calcul" },
+        { "id": 4, "enonce": "7,5 ÷ 5 = ?", "reponse": "1,5", "type": "calcul" },
+        { "id": 5, "enonce": "0,25 × 20 = ?", "reponse": "5", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 3,
+      "titre": "Pourcentages simples",
+      "questions": [
+        { "id": 1, "enonce": "10% de 200 = ?", "reponse": "20", "type": "calcul" },
+        { "id": 2, "enonce": "25% de 80 = ?", "reponse": "20", "type": "calcul" },
+        { "id": 3, "enonce": "50% de 140 = ?", "reponse": "70", "type": "calcul" },
+        { "id": 4, "enonce": "20% de 150 = ?", "reponse": "30", "type": "calcul" },
+        { "id": 5, "enonce": "75% de 120 = ?", "reponse": "90", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 4,
+      "titre": "Proportionnalité",
+      "questions": [
+        { "id": 1, "enonce": "Si 1 kg coûte 3,50 €, combien coûtent 4 kg ?", "reponse": "14", "type": "probleme" },
+        { "id": 2, "enonce": "Une voiture roule à 90 km/h. En 2 h elle parcourt ? km", "reponse": "180", "type": "probleme" },
+        { "id": 3, "enonce": "Si 5 stylos coûtent 7,50 €, quel est le prix d'un stylo ?", "reponse": "1,5", "type": "probleme" },
+        { "id": 4, "enonce": "15 est les 3/5 de ?", "reponse": "25", "type": "probleme" },
+        { "id": 5, "enonce": "Sur une carte à l'échelle 1/50 000, 2 cm représentent ? km", "reponse": "1", "type": "probleme" }
+      ]
+    },
+    {
+      "id": 5,
+      "titre": "Conversions de volumes",
+      "questions": [
+        { "id": 1, "enonce": "2 L = ? cL", "reponse": "200", "type": "conversion" },
+        { "id": 2, "enonce": "350 mL = ? cL", "reponse": "35", "type": "conversion" },
+        { "id": 3, "enonce": "1,5 L = ? mL", "reponse": "1500", "type": "conversion" },
+        { "id": 4, "enonce": "75 cL = ? mL", "reponse": "750", "type": "conversion" },
+        { "id": 5, "enonce": "3500 mL = ? L", "reponse": "3,5", "type": "conversion" }
+      ]
+    },
+    {
+      "id": 6,
+      "titre": "Calculs d'aires",
+      "questions": [
+        { "id": 1, "enonce": "Aire d'un carré de côté 8 cm = ? cm²", "reponse": "64", "type": "geometrie" },
+        { "id": 2, "enonce": "Aire d'un rectangle 7 cm × 9 cm = ? cm²", "reponse": "63", "type": "geometrie" },
+        { "id": 3, "enonce": "Aire d'un triangle base 10 cm, hauteur 6 cm = ? cm²", "reponse": "30", "type": "geometrie" },
+        { "id": 4, "enonce": "Aire d'un carré de côté 12 cm = ? cm²", "reponse": "144", "type": "geometrie" },
+        { "id": 5, "enonce": "Aire d'un rectangle 15 cm × 4 cm = ? cm²", "reponse": "60", "type": "geometrie" }
+      ]
+    },
+    {
+      "id": 7,
+      "titre": "Puissances de 10",
+      "questions": [
+        { "id": 1, "enonce": "10² = ?", "reponse": "100", "type": "calcul" },
+        { "id": 2, "enonce": "10³ = ?", "reponse": "1000", "type": "calcul" },
+        { "id": 3, "enonce": "5² = ?", "reponse": "25", "type": "calcul" },
+        { "id": 4, "enonce": "√36 = ?", "reponse": "6", "type": "calcul" },
+        { "id": 5, "enonce": "√81 = ?", "reponse": "9", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 8,
+      "titre": "Calculs avec les angles",
+      "questions": [
+        { "id": 1, "enonce": "La somme des angles d'un carré = ? °", "reponse": "360", "type": "geometrie" },
+        { "id": 2, "enonce": "Dans un triangle, un angle mesure 70°, un autre 60°. Le troisième = ? °", "reponse": "50", "type": "geometrie" },
+        { "id": 3, "enonce": "Angle au centre d'un demi-cercle = ? °", "reponse": "180", "type": "geometrie" },
+        { "id": 4, "enonce": "Un angle de 270° c'est ? tours complets + ? ° → répondre : 270", "reponse": "270", "type": "geometrie" },
+        { "id": 5, "enonce": "3/4 de tour = ? °", "reponse": "270", "type": "geometrie" }
+      ]
+    },
+    {
+      "id": 9,
+      "titre": "Calculs littéraux simples",
+      "questions": [
+        { "id": 1, "enonce": "Si x = 5, alors 3x = ?", "reponse": "15", "type": "calcul" },
+        { "id": 2, "enonce": "Si a = 4, alors 2a + 1 = ?", "reponse": "9", "type": "calcul" },
+        { "id": 3, "enonce": "Si n = 6, alors n² = ?", "reponse": "36", "type": "calcul" },
+        { "id": 4, "enonce": "Si x = 3, alors 4x – 2 = ?", "reponse": "10", "type": "calcul" },
+        { "id": 5, "enonce": "Si p = 7, alors p + 2p = ?", "reponse": "21", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 10,
+      "titre": "Probabilités simples",
+      "questions": [
+        { "id": 1, "enonce": "On tire au sort parmi 5 boules dont 1 rouge. P(rouge) = ? sur 5", "reponse": "1", "type": "probleme" },
+        { "id": 2, "enonce": "On lance un dé à 6 faces. Combien de faces montrent un nombre pair ?", "reponse": "3", "type": "probleme" },
+        { "id": 3, "enonce": "Dans un sac : 3 rouges, 2 bleues, 5 vertes. Probabilité de tirer une verte = ? /10", "reponse": "5", "type": "probleme" },
+        { "id": 4, "enonce": "P(pile) lors d'un lancer de pièce = 1 sur ?", "reponse": "2", "type": "probleme" },
+        { "id": 5, "enonce": "Un jeu de 52 cartes. Combien y a-t-il d'as ?", "reponse": "4", "type": "probleme" }
+      ]
+    },
+    {
+      "id": 11,
+      "titre": "Problèmes de la vie courante",
+      "questions": [
+        { "id": 1, "enonce": "Un article soldé 20% sur 35 € coûte ? €", "reponse": "28", "type": "probleme" },
+        { "id": 2, "enonce": "Train : départ 8h45, arrivée 11h15. Durée du trajet = ? h ? min → répondre en minutes : ?", "reponse": "150", "type": "probleme" },
+        { "id": 3, "enonce": "4 personnes partagent 60 € équitablement. Chacun reçoit ? €", "reponse": "15", "type": "probleme" },
+        { "id": 4, "enonce": "Un téléphone vaut 480 €. Avec 30% de remise, il coûte ? €", "reponse": "336", "type": "probleme" },
+        { "id": 5, "enonce": "En 5 jours on parcourt 350 km. Combien en 8 jours au même rythme ?", "reponse": "560", "type": "probleme" }
+      ]
+    }
+  ]
+}

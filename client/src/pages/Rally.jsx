@@ -5,7 +5,7 @@ import { useTimer } from '../hooks/useTimer';
 import { Timer } from '../components/Timer';
 import { QuestionCard } from '../components/QuestionCard';
 import { ProgressBar } from '../components/ProgressBar';
-import rallyeData from '../data/rallye5_2025.json';
+import { RALLYES_DATA } from '../data/rallyes';
 
 export function Rally() {
   const { annee, id } = useParams();
@@ -24,9 +24,10 @@ export function Rally() {
 
   const timer = useTimer(rallye?.dureeExercice ?? 180, handleTimerExpire);
 
-  // Load rallye data (static import, no server needed)
+  // Load rallye data from registry based on URL params
   useEffect(() => {
-    setRallye(rallyeData);
+    const data = RALLYES_DATA[`${annee}-${id}`] ?? null;
+    setRallye(data);
   }, [annee, id]);
 
   // Auto-start when data loaded
