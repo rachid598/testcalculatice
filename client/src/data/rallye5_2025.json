@@ -1,0 +1,141 @@
+{
+  "id": 5,
+  "annee": 2025,
+  "titre": "Rallye 5 – CM2 / 6ème",
+  "niveau": "CM2 / 6ème",
+  "dureeExercice": 180,
+  "exercices": [
+    {
+      "id": 1,
+      "titre": "Multiplications",
+      "questions": [
+        { "id": 1, "enonce": "25 × 4 = ?", "reponse": "100", "type": "calcul" },
+        { "id": 2, "enonce": "36 × 5 = ?", "reponse": "180", "type": "calcul" },
+        { "id": 3, "enonce": "48 × 25 = ?", "reponse": "1200", "type": "calcul" },
+        { "id": 4, "enonce": "125 × 8 = ?", "reponse": "1000", "type": "calcul" },
+        { "id": 5, "enonce": "99 × 7 = ?", "reponse": "693", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 2,
+      "titre": "Divisions",
+      "questions": [
+        { "id": 1, "enonce": "480 ÷ 6 = ?", "reponse": "80", "type": "calcul" },
+        { "id": 2, "enonce": "350 ÷ 7 = ?", "reponse": "50", "type": "calcul" },
+        { "id": 3, "enonce": "1200 ÷ 4 = ?", "reponse": "300", "type": "calcul" },
+        { "id": 4, "enonce": "900 ÷ 25 = ?", "reponse": "36", "type": "calcul" },
+        { "id": 5, "enonce": "750 ÷ 3 = ?", "reponse": "250", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 3,
+      "titre": "Nombres décimaux",
+      "questions": [
+        { "id": 1, "enonce": "3,5 + 2,7 = ?", "reponse": "6,2", "type": "calcul" },
+        { "id": 2, "enonce": "8,4 – 3,6 = ?", "reponse": "4,8", "type": "calcul" },
+        { "id": 3, "enonce": "0,25 × 4 = ?", "reponse": "1", "type": "calcul" },
+        { "id": 4, "enonce": "4,8 ÷ 4 = ?", "reponse": "1,2", "type": "calcul" },
+        { "id": 5, "enonce": "1,5 × 1,5 = ?", "reponse": "2,25", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 4,
+      "titre": "Fractions",
+      "questions": [
+        { "id": 1, "enonce": "1/2 de 80 = ?", "reponse": "40", "type": "calcul" },
+        { "id": 2, "enonce": "1/4 de 120 = ?", "reponse": "30", "type": "calcul" },
+        { "id": 3, "enonce": "3/4 de 200 = ?", "reponse": "150", "type": "calcul" },
+        { "id": 4, "enonce": "2/5 de 100 = ?", "reponse": "40", "type": "calcul" },
+        { "id": 5, "enonce": "5/6 de 120 = ?", "reponse": "100", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 5,
+      "titre": "Conversions de longueurs",
+      "questions": [
+        { "id": 1, "enonce": "3 km = ? m", "reponse": "3000", "type": "conversion" },
+        { "id": 2, "enonce": "250 cm = ? m", "reponse": "2,5", "type": "conversion" },
+        { "id": 3, "enonce": "4500 m = ? km", "reponse": "4,5", "type": "conversion" },
+        { "id": 4, "enonce": "0,8 km = ? m", "reponse": "800", "type": "conversion" },
+        { "id": 5, "enonce": "35 mm = ? cm", "reponse": "3,5", "type": "conversion" }
+      ]
+    },
+    {
+      "id": 6,
+      "titre": "Conversions de masses",
+      "questions": [
+        { "id": 1, "enonce": "2 kg = ? g", "reponse": "2000", "type": "conversion" },
+        { "id": 2, "enonce": "1500 g = ? kg", "reponse": "1,5", "type": "conversion" },
+        { "id": 3, "enonce": "0,75 kg = ? g", "reponse": "750", "type": "conversion" },
+        { "id": 4, "enonce": "3,2 kg = ? g", "reponse": "3200", "type": "conversion" },
+        { "id": 5, "enonce": "450 g + 0,55 kg = ? g", "reponse": "1000", "type": "conversion" }
+      ]
+    },
+    {
+      "id": 7,
+      "titre": "Proportionnalité",
+      "questions": [
+        { "id": 1, "enonce": "Si 3 crayons coûtent 6 €, combien coûtent 9 crayons ?", "reponse": "18", "type": "probleme" },
+        { "id": 2, "enonce": "Une voiture roule à 80 km/h. En 3h elle parcourt ? km", "reponse": "240", "type": "probleme" },
+        { "id": 3, "enonce": "Si 4 kg de pommes coûtent 8 €, combien coûte 1 kg ?", "reponse": "2", "type": "probleme" },
+        { "id": 4, "enonce": "12 est les 3/4 de ?", "reponse": "16", "type": "probleme" },
+        { "id": 5, "enonce": "Sur une carte à l'échelle 1/10 000, 5 cm représentent ? m", "reponse": "500", "type": "probleme" }
+      ]
+    },
+    {
+      "id": 8,
+      "titre": "Puissances et carrés",
+      "questions": [
+        { "id": 1, "enonce": "7² = ?", "reponse": "49", "type": "calcul" },
+        { "id": 2, "enonce": "12² = ?", "reponse": "144", "type": "calcul" },
+        { "id": 3, "enonce": "√25 = ?", "reponse": "5", "type": "calcul" },
+        { "id": 4, "enonce": "√144 = ?", "reponse": "12", "type": "calcul" },
+        { "id": 5, "enonce": "3³ = ?", "reponse": "27", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 9,
+      "titre": "Périmètres et aires",
+      "questions": [
+        { "id": 1, "enonce": "Périmètre d'un carré de côté 7 cm = ? cm", "reponse": "28", "type": "geometrie" },
+        { "id": 2, "enonce": "Aire d'un rectangle 6 cm × 9 cm = ? cm²", "reponse": "54", "type": "geometrie" },
+        { "id": 3, "enonce": "Périmètre d'un rectangle 5 cm × 8 cm = ? cm", "reponse": "26", "type": "geometrie" },
+        { "id": 4, "enonce": "Aire d'un carré de côté 9 cm = ? cm²", "reponse": "81", "type": "geometrie" },
+        { "id": 5, "enonce": "Périmètre d'un triangle équilatéral de côté 11 cm = ? cm", "reponse": "33", "type": "geometrie" }
+      ]
+    },
+    {
+      "id": 10,
+      "titre": "Calculs avec les angles",
+      "questions": [
+        { "id": 1, "enonce": "Un angle plat = ? degrés", "reponse": "180", "type": "geometrie" },
+        { "id": 2, "enonce": "La somme des angles d'un triangle = ? degrés", "reponse": "180", "type": "geometrie" },
+        { "id": 3, "enonce": "Un quart de tour = ? degrés", "reponse": "90", "type": "geometrie" },
+        { "id": 4, "enonce": "Dans un triangle rectangle, les deux autres angles font 40° et ? °", "reponse": "50", "type": "geometrie" },
+        { "id": 5, "enonce": "Trois huitièmes d'un tour complet = ? degrés", "reponse": "135", "type": "geometrie" }
+      ]
+    },
+    {
+      "id": 11,
+      "titre": "Nombres entiers",
+      "questions": [
+        { "id": 1, "enonce": "Le plus grand nombre à 4 chiffres = ?", "reponse": "9999", "type": "calcul" },
+        { "id": 2, "enonce": "1 000 000 – 1 = ?", "reponse": "999999", "type": "calcul" },
+        { "id": 3, "enonce": "Écrire en chiffres : quatre-vingt-dix-huit mille = ?", "reponse": "98000", "type": "calcul" },
+        { "id": 4, "enonce": "3 × 10 000 + 5 × 100 + 7 = ?", "reponse": "30507", "type": "calcul" },
+        { "id": 5, "enonce": "Donner le chiffre des dizaines dans 83 754 = ?", "reponse": "5", "type": "calcul" }
+      ]
+    },
+    {
+      "id": 12,
+      "titre": "Problèmes de la vie quotidienne",
+      "questions": [
+        { "id": 1, "enonce": "J'ai 50 € et je dépense 23,50 €. Il me reste ? €", "reponse": "26,5", "type": "probleme" },
+        { "id": 2, "enonce": "Un trajet de 240 km à 80 km/h dure ? heures", "reponse": "3", "type": "probleme" },
+        { "id": 3, "enonce": "6 bouteilles de 75 cl = ? litres", "reponse": "4,5", "type": "probleme" },
+        { "id": 4, "enonce": "Un article coûte 40 €. Remise de 25% : prix final = ? €", "reponse": "30", "type": "probleme" },
+        { "id": 5, "enonce": "En 7 jours, Alice lit 35 pages. En 12 jours, elle lira ? pages", "reponse": "60", "type": "probleme" }
+      ]
+    }
+  ]
+}

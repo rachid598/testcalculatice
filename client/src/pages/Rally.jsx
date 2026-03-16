@@ -5,8 +5,7 @@ import { useTimer } from '../hooks/useTimer';
 import { Timer } from '../components/Timer';
 import { QuestionCard } from '../components/QuestionCard';
 import { ProgressBar } from '../components/ProgressBar';
-
-const API = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+import rallyeData from '../data/rallye5_2025.json';
 
 export function Rally() {
   const { annee, id } = useParams();
@@ -25,13 +24,9 @@ export function Rally() {
 
   const timer = useTimer(rallye?.dureeExercice ?? 180, handleTimerExpire);
 
-  // Load rallye data
+  // Load rallye data (static import, no server needed)
   useEffect(() => {
-    fetch(`${API}/rallye/${annee}/${id}`)
-      .then(r => r.json())
-      .then(data => {
-        setRallye(data);
-      });
+    setRallye(rallyeData);
   }, [annee, id]);
 
   // Auto-start when data loaded
@@ -68,19 +63,20 @@ export function Rally() {
     }
     if (rally.state === 'DONE') {
       timer.stop();
-      // Save results
-      fetch(`${API}/resultats`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          annee: Number(annee),
-          rallye: Number(id),
-          binome,
-          score: rally.totalScore,
-          total: rally.totalQuestions,
-          details: rally.scores
-        })
-      }).catch(() => {});
+      // Save results to localStorage
+      const entry = {
+        annee: Number(annee),
+        rallye: Number(id),
+        binome,
+        score: rally.totalScore,
+        total: rally.totalQuestions,
+        pourcentage: Math.round((rally.totalScore / rally.totalQuestions) * 100),
+        date: new Date().toISOString()
+      };
+      try {
+        const prev = JSON.parse(localStorage.getItem('calculatice_resultats') || '[]');
+        localStorage.setItem('calculatice_resultats', JSON.stringify([...prev, entry]));
+      } catch (_) {}
       navigate(`/resultats/${annee}/${id}`, {
         state: { binome, scores: rally.scores, totalScore: rally.totalScore, totalQuestions: rally.totalQuestions, exercices: rallye.exercices }
       });
